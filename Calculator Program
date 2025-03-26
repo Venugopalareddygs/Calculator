@@ -12,7 +12,7 @@ int main() {
 
     result = add(num1, num2);  
 
-    printf("Addition: %d\n", result);  
+    printf("Addition : %d\n", result);  
 
     return 0;
 }
