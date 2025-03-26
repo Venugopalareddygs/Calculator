@@ -11,7 +11,9 @@ int main() {
     scanf("%d %d", &num1, &num2);  
 
     result = add(num1, num2);  
+    result = sub(num1, num2);
 
+    printf("substraction: %d\n", result);
     printf("Addition: %d\n", result);  
 
     return 0;
