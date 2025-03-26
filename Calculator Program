@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int sub(int num1, int num2) {  
+int mul(int num1, int num2) {  
     return num1 * num2;
 }
 
@@ -10,9 +10,9 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);  
 
-    result = sub(num1, num2);  
+    result = mul(num1, num2);  
 
-    printf("Substraction: %d\n", result);  
+    printf("multiplication : %d\n", result);  
 
     return 0;
 }
