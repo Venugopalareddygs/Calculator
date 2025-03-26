@@ -12,7 +12,7 @@ int main() {
 
     result = mul(num1, num2);  
 
-    printf("multiplication : %d\n", result);  
+    printf("multiplication: %d\n", result);  
 
     return 0;
 }
